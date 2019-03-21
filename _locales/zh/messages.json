@@ -1,0 +1,54 @@
+{
+  "kentikSudoToolsExtentsionName": {
+    "message": "Kentik Sudo 工具",
+    "description": "The name of this chrome extention"
+  },
+  "kentikSudoHideHeader": {
+    "message": "Sudo 图标",
+    "description": "Header for the Sudo Icon Sub Menu"
+  },
+  "kentikHideSudoIconsSliderLabel": {
+    "message": "隐藏 Sudo 图标",
+    "description": "The label for the slider that alows users to hide or unhide the Sudo Icons in the portl"
+  },
+  "kentikHideSudoIconsUnhideOnce": {
+    "message": "取消隐藏一次",
+    "description": "The label for the button to unhide the sudo icons for one page cycle"
+  },
+  "kentikAnonymizationHeader": {
+    "message": "匿名者",
+    "description": "Header for the Sudo Anonymizer Sub Menu"
+  },
+  "kentikBitShiftAnonymizeLabel": {
+    "message": "位移匿名",
+    "description": "Turn all key Elements to Binary and Move the far right bit to the left"
+  },
+  "kentikAnonymizationClientNameLabel": {
+    "message": "插入客户名称",
+    "description": ""
+  },
+  "kentikAnonymizationTargetASNLabel": {
+    "message": "目标 ASN",
+    "description": ""
+  },
+  "kentikAnonymizationInsertASNLabel": {
+    "message": "插入 ASN",
+    "description": ""
+  },
+  "kentikAnonymizationTargetIPLabel": {
+    "message": "目标 IP/CDIR",
+    "description": ""
+  },
+  "kentikAnonymizerInsertIPLabel": {
+    "message": "插入 IP/CDIR",
+    "description": ""
+  },
+  "kentikAnonymizerAnonymizeButton": {
+    "message": "匿名化",
+    "description": ""
+  },
+  "kentikAnonymizerClearButton": {
+    "message": "明确",
+    "description": ""
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="popup.css">
+    </head>
+    <body class="kentikSudoToolsExtention">
+        <div class="grid-container">
+            <label class="grid-header" id="kentikSudoHideHeader">Sudo Icons</label>
+            <label id="kentikHideSudoIconsSliderLabel" class="grid-item-label">Hide Sudo Icons</label>
+            <label class="switch grid-item-input">
+                <input id="kentikHideSudoIconStateTrigger" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <div class="grid-item-label, cell-bottom"></div>
+            <label class="grid-item-input, cell-bottom">
+                <a id="kentikHideSudoIconsUnhideOnce" class="kentikButton">Unhide Once</a>
+            </label>
+            <label id="kentikAnonymizationHeader" class="grid-header">Anonymizer</label>
+            <label id="kentikBitShiftAnonymizeLabel" class="grid-item-label">Bit Shift Anonymize</label>
+            <label class="switch grid-item-input">
+                <input id="kentikBitShiftAnonymizeTrigger" type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            <label id="kentikAnonymizationClientNameLabel" class="grid-item-label">Insert Client Name</label>
+            <div class="grid-item-input">
+                <input id="kentikAnonymizerClientName" type="text" class="inputField"></input>
+            </div>
+            <label id="kentikAnonymizationTargetASNLabel" class="grid-item-label">Target ASN</label>
+            <div class="grid-item-input">
+                <input id="kentikAnonymizerTargetASN" type="text" class="inputField"></input>
+            </div>
+            <label id="kentikAnonymizationInsertASNLabel" class="grid-item-label">Insert ASN</label>
+            <div class="grid-item-input">
+                <input id="kentikAnonymizerInsertASN" type="text" class="inputField"></input>
+            </div>
+            <label id="kentikAnonymizationTargetIPLabel" class="grid-item-label">Target IP/CDIRs</label>
+            <div class="grid-item-input">
+                <input id="kentikAnonymizerTargetIPs" type="text" class="inputField"></input>
+            </div>
+            <label id="kentikAnonymizerInsertIPLabel" class="grid-item-label">Insert IP/CDIRs</label>
+            <div class="grid-item-input">
+                <input id="kentikAnonymizerInsertIPs" type="text" class="inputField"></input>
+            </div>
+            <label id="kentikAnonymizerAnonymizeButtonLabel" class="grid-item-input">
+                <a id="kentikAnonymizerAnonymizeButton" class="kentikButton">Anonymize</a>
+            </label>
+            <label id="kentikAnonymizerClearButtonLabel" class="grid-item-input">
+                <a id="kentikAnonymizerClearButton" class="kentikButton">Clear</a>
+            </label>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>

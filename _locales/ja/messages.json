@@ -1,0 +1,54 @@
+{
+  "kentikSudoToolsExtentsionName": {
+    "message": "Kentik Sudo ツール",
+    "description": "The name of this chrome extention"
+  },
+  "kentikSudoHideHeader": {
+    "message": "スドーアイコン",
+    "description": "Header for the Sudo Icon Sub Menu"
+  },
+  "kentikHideSudoIconsSliderLabel": {
+    "message": "Sudo アイコンを隠す",
+    "description": "The label for the slider that alows users to hide or unhide the Sudo Icons in the portl"
+  },
+  "kentikHideSudoIconsUnhideOnce": {
+    "message": "一度元に戻す",
+    "description": "The label for the button to unhide the sudo icons for one page cycle"
+  },
+  "kentikAnonymizationHeader": {
+    "message": "アノニマイザ",
+    "description": "Header for the Sudo Anonymizer Sub Menu"
+  },
+  "kentikBitShiftAnonymizeLabel": {
+    "message": "ビットシフト匿名化",
+    "description": "Turn all key Elements to Binary and Move the far right bit to the left"
+  },
+  "kentikAnonymizationClientNameLabel": {
+    "message": "クライアント名を挿入",
+    "description": ""
+  },
+  "kentikAnonymizationTargetASNLabel": {
+    "message": "ターゲット ASN",
+    "description": ""
+  },
+  "kentikAnonymizationInsertASNLabel": {
+    "message": "ASN を挿入",
+    "description": ""
+  },
+  "kentikAnonymizationTargetIPLabel": {
+    "message": "ターゲットIP/CDIR",
+    "description": ""
+  },
+  "kentikAnonymizerInsertIPLabel": {
+    "message": "IP/CDIR を挿入",
+    "description": ""
+  },
+  "kentikAnonymizerAnonymizeButton": {
+    "message": "匿名化する",
+    "description": ""
+  },
+  "kentikAnonymizerClearButton": {
+    "message": "クリア",
+    "description": ""
+  }
+}

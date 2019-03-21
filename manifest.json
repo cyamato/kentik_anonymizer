@@ -1,0 +1,55 @@
+{
+    "name": "__MSG_kentikSudoToolsExtentsionName__",
+    "version": "1.0",
+    "description": "Tools for Working with the Kentik Portal for internal Kentik users",
+    "default_locale": "en",
+    "author": "Craig K Yamato II",
+    "permissions": [
+        "storage",
+        "tabs",
+        "declarativeContent"
+    ],
+    "manifest_version": 2,
+    "icons": {
+        "16": "kentik16.png",
+        "48": "kentik48.png",
+        "128": "kentik128.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "kentik16.png",
+            "48": "kentik48.png",
+            "128": "kentik128.png"
+        },
+        "default_title": "__MSG_kentikSudoToolsExtentsionName__",
+        "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://portal.kentik.com/*"
+            ],
+            "exclude_matches": [
+                "*://portal.kentik.com/login.html"
+            ],
+            "all_frames": true,
+            "css": [
+                "popup.css"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+      "kentikComInject.js",
+      "pageinjection.js"
+    ]
+}
